@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/caliper.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CustomFont', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: darkblue;
+}
+
+canvas {
+    border-radius: 20px;
+}
